@@ -28,4 +28,4 @@ testing. Dedicated teams are handling performance and security testing, so you d
 is always the case in the real world, you don’t have time to test everything. What factors do you
 think about as you decide where to focus your testing efforts? How do you decide what not to
 test?
-
+It depends on the which features are affected and in what areas of the application. If we are adding new inputs that are public facing or a new public facing API, then we need to have security testing and integration testing. Integration testing is a must, because that at least insures that the changes work, can't push broken code. We can come back to performance testings after release, but it needs to done as soon as possible to insure that the user experience is not broken. 
