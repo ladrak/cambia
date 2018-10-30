@@ -2,9 +2,14 @@
 
 Tools
 1. In your opinion, what’s helpful about version control systems? What’s annoying about them?
+  Version control systems help developer view a history of the changes that happend in an application. It also helps use to work "branch" experimental code, so we can make changes without introducing new bugs. Even if we do, version control systems let us quickly roll back our code to a state when we new it was functioning properly. 
+  The most annoying thing about version control is having to merge different branches of code. Some times, when multiple developers are working on different changes, there comes a point in which a decision has to be made about which code is the most appropriate to integrate with the main source. These merges need to be done carefully.
   
 2. What are some pros and cons of using Docker to develop, test, and deploy software?
+  Docker is nice because you have a sandboxed execution environment. That means you can have confidence that errors are not caused by applications installed or other changes to your OS. When it comes to debugging this is a life saver. It also helps because if you need to test code in a specific way, it is quick and easy to start a docker container that is already preconfigured with your needs.
+  
 3. How do you choose which language to use for a given task? How did you choose the language for the programming exercise above?
+  The choice of langues really depends on the problem domain. If I'm working on Windows, I'm using something that is .NET. If I'm working on Linux, I'm chosing something like Java, or Bash. For the task given, I used the languages given by the requirements. 
 
 
 Testing Methodology
